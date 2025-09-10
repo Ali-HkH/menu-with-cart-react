@@ -2,19 +2,19 @@
 
 @font-face {
    font-family: "RedHatText";
-   src: url("../public/assets/fonts/static/RedHatText-Regular.ttf");
+   src: url("./assets/fonts/static/RedHatText-Regular.ttf");
    font-display: swap;
    font-weight: 400;
 }
 @font-face {
    font-family: "RedHatText";
-   src: url("../public/assets/fonts/static/RedHatText-SemiBold.ttf");
+   src: url("./assets/fonts/static/RedHatText-SemiBold.ttf");
    font-display: swap;
    font-weight: 600;
 }
 @font-face {
    font-family: "RedHatText";
-   src: url("../public/assets/fonts/static/RedHatText-Bold.ttf");
+   src: url("./assets/fonts/static/RedHatText-Bold.ttf");
    font-display: swap;
    font-weight: 700;
 }
@@ -28,7 +28,7 @@
    --color-rose-900: hsl(14, 65%, 9%);
 
    --color-red: hsl(14, 86%, 42%);
-   --color-green: hsl(14, 86%, 42%);
+   --color-green: hsl(159, 69%, 38%);
 }
 
 @layer base {
@@ -39,5 +39,5 @@
 }
 
 @utility container {
-   @apply mx-auto px-8 sm:px-10 lg:px-14 xl:px-18 2xl:px-28;
+   @apply mx-auto px-8 sm:px-10 md:px-6 lg:px-6 xl:px-16 2xl:px-24;
 }
