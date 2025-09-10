@@ -2,19 +2,19 @@
 
 @font-face {
    font-family: "RedHatText";
-   src: url("./assets/fonts/static/RedHatText-Regular.ttf");
+   src: url("/menu-with-cart-react/assets/fonts/static/RedHatText-Regular.ttf");
    font-display: swap;
    font-weight: 400;
 }
 @font-face {
    font-family: "RedHatText";
-   src: url("./assets/fonts/static/RedHatText-SemiBold.ttf");
+   src: url("/menu-with-cart-react/assets/fonts/static/RedHatText-SemiBold.ttf");
    font-display: swap;
    font-weight: 600;
 }
 @font-face {
    font-family: "RedHatText";
-   src: url("./assets/fonts/static/RedHatText-Bold.ttf");
+   src: url("/menu-with-cart-react/assets/fonts/static/RedHatText-Bold.ttf");
    font-display: swap;
    font-weight: 700;
 }
@@ -33,7 +33,7 @@
 
 @layer base {
    body {
-       font-family: "RedHatText", sans-serif;
+      font-family: "RedHatText", sans-serif;
       overflow-x: hidden;
    }
 }
